@@ -6,3 +6,5 @@ export const mostrarproductos = (productos) =>{
         `)
     })
 }
+
+//actividad 2
