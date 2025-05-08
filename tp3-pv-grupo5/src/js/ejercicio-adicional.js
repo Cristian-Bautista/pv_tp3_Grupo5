@@ -1,5 +1,5 @@
 import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
-
+import { agregarproducto } from "./los-puntos-del-ejercicio-adicional.js";
 const productos = [
     {
         Descripcion : "Teclado",
@@ -22,4 +22,5 @@ const productos = [
         Precio : 30000
     }
 ]
-mostrarproductos(productos);
+//mostrarproductos(productos);
+agregarproducto(productos);
