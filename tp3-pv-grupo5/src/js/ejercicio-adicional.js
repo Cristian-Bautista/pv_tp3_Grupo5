@@ -1,4 +1,4 @@
-import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
+import { mostrarproductos, filtrarProductosPorPrecio} from "./los-puntos-del-ejercicio-adicional.js"
 
 const productos = [
     {
@@ -23,3 +23,13 @@ const productos = [
     }
 ]
 mostrarproductos(productos);
+
+
+// Actividad 2 
+console.log("\nProductos con precio mayor a $20:");
+const productosFiltrados = filtrarProductosPorPrecio(productos);
+mostrarproductos(productosFiltrados);
+
+
+
+  

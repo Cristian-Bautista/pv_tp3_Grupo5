@@ -8,3 +8,15 @@ export const mostrarproductos = (productos) =>{
 }
 
 //actividad 2
+
+export const generarproductos = (productos) => {
+    productos.forEach(({ Descripcion, Precio }) => {
+      console.log(`Descripción: ${Descripcion} - Precio: $${Precio}`);
+    });
+  };
+  
+  
+  export const filtrarProductosPorPrecio = (productos) => {
+     return productos.filter(({ Precio }) => Precio > 20);
+  };
+  
