@@ -36,3 +36,15 @@ function eliminarMinimo(productos) {
     }
   productos.splice(pos, 1);
 }
+//Punto 4
+export const odenarararraydeproductos =(productos)=>{
+    console.log(productos.sort(function(a,b){
+        if (a.Precio>b.Precio){
+            return 1;
+        }
+        if (b.Precio>a.Precio){
+            return -1;
+        }
+        return 0;
+    })) 
+}
