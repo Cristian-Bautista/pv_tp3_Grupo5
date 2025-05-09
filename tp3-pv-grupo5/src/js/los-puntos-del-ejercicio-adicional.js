@@ -7,6 +7,11 @@ export const mostrarproductos = (productos) =>{
         `)
     })
 }
+//Punto 2
+export const filtrarProductosPorPrecio = (productos) => {
+    console.log("\nProductos con precio mayor a $20:");
+    console.log(productos.filter(({ Precio }) => Precio > 30000));
+};
 //Punto 5
 export const agregarproducto = (productos) =>{
     productos.push({ descripcion: "Samsung Galaxy S25 Ultra 512gb", precio: 2987288 });
@@ -28,6 +33,6 @@ function eliminarMinimo(productos) {
             min = productos[i].Precio;
             pos = i;
         }
-}
-productos.splice(pos, 1);
+    }
+  productos.splice(pos, 1);
 }

@@ -1,3 +1,4 @@
+import { filtrarProductosPorPrecio} from "./los-puntos-del-ejercicio-adicional.js"
 import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
 import { agregarproducto } from "./los-puntos-del-ejercicio-adicional.js";
 import { eliminarProducto } from "./los-puntos-del-ejercicio-adicional.js";
@@ -23,9 +24,8 @@ const productos = [
         Precio : 30000
     }
 ]
-//mostrarproductos(productos);
-
 
 mostrarproductos(productos);
 agregarproducto(productos);
 eliminarProducto(productos);
+filtrarProductosPorPrecio(productos);
