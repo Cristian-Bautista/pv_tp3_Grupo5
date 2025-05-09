@@ -1,5 +1,7 @@
 import { filtrarProductosPorPrecio} from "./los-puntos-del-ejercicio-adicional.js"
-
+import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
+import { agregarproducto } from "./los-puntos-del-ejercicio-adicional.js";
+import { eliminarProducto } from "./los-puntos-del-ejercicio-adicional.js";
 const productos = [
     {
         Descripcion : "Teclado",
@@ -23,7 +25,7 @@ const productos = [
     }
 ]
 
-// Actividad 2 
+mostrarproductos(productos);
+agregarproducto(productos);
+eliminarProducto(productos);
 filtrarProductosPorPrecio(productos);
-
-  
