@@ -7,4 +7,14 @@ export const mostrarproductos = (productos) =>{
     })
 }
 
-//actividad 2
+//actividad 3
+export const iba= (productos) => {
+let precioconiba=Precio.map{((Descripcion,precio)=>{
+return {
+    Descripcion: Descripcion,
+    Precio: (precio*1.21),
+}
+})
+return precioconiba
+}
+}
