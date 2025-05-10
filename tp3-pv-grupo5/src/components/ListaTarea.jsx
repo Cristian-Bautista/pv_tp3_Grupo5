@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import InputTarea from './InputTarea';
+import './listaTarea.css';
 
 const ListaTarea = () => {
     const guardar = (nuevaTarea)=>{
@@ -8,15 +9,14 @@ const ListaTarea = () => {
     }
     const [tareas, setTareas] = useState([]);
     return (
-    <div>
-        <InputTarea guardar={guardar}/>
-        <ul>
-            {
-                tareas.map((elemento, index) => (
-                    <li key={index}>{elemento}</li>
-                ))
-            }
-        </ul>
+    <div className='listaTarea'>
+        <h2>Ingresar Tarea</h2>
+      <InputTarea guardar={guardar} />
+      <ul className="Fondo">
+        {tareas.map((elemento, index) => (
+          <li className="tarea" key={index}>{elemento}</li>
+        ))}
+      </ul>
     </div>
   )
 }
