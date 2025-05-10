@@ -1,5 +1,5 @@
 import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
-
+import { iba } from "./los-puntos-del-ejercicio-adicional.js"
 const productos = [
     {
         Descripcion : "Teclado",
@@ -8,10 +8,12 @@ const productos = [
     {
         Descripcion : "Mouse",
         Precio : 25000
+        
     },
     {
         Descripcion : "Smart 32'",
         Precio : 350000
+        
     },
     {
         Descripcion : "Disco SSD 480gb",
@@ -22,4 +24,5 @@ const productos = [
         Precio : 30000
     }
 ]
-mostrarproductos(productos);
+//mostrarproductos(productos);
+iba(productos);

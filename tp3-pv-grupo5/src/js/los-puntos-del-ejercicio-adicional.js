@@ -9,12 +9,6 @@ export const mostrarproductos = (productos) =>{
 
 //actividad 3
 export const iba= (productos) => {
-let precioconiba=Precio.map{((Descripcion,precio)=>{
-return {
-    Descripcion: Descripcion,
-    Precio: (precio*1.21),
+    console.log(productos.map(i=>i.Precio*21/100));
 }
-})
-return precioconiba
-}
-}
+
