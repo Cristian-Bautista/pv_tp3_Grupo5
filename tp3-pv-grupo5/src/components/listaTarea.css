@@ -1,5 +1,5 @@
 body {
-  background-color: #59aaa7;
+  background-color: #ea5696;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -35,7 +35,7 @@ input[type="text"] {
 }
 
 button {
-  background-color: #6200ea; 
+  background-color: #ea83bd; 
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -46,8 +46,32 @@ button {
 }
 
 .Fondo {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.Fondo li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Fondo li span {
+  flex: 1;
+  color: black;
+  font-size: 16px;
+}
+
+.Fondo li button {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border: 1px solid #888;
+  background-color: #e274ad;
+  cursor: pointer;
+}
+
+.Fondo li button:hover {
+  background-color: #ceb5b5;
 }
 
 .tarea {
