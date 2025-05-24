@@ -48,3 +48,15 @@ export const odenarararraydeproductos =(productos)=>{
         return 0;
     })) 
 }
+//Punto 3
+export const productosConIVA = (productos) => {
+    const productosIva = productos.map(({Descripcion, Precio}) => (
+        {
+            Descripcion,
+            Precio,
+            PrecioConIVA: parseFloat((Precio * 1.21).toFixed(2))
+        }
+    ));
+    console.log("Productos con IVA:");
+    console.log(productosIva);
+}
