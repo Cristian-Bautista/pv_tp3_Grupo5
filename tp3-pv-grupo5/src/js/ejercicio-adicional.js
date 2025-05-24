@@ -8,6 +8,7 @@ const productos = [
     {
         Descripcion : "Teclado",
         Precio : 30000
+        
     },
     {
         Descripcion : "Mouse",
@@ -16,6 +17,7 @@ const productos = [
     {
         Descripcion : "Smart 32'",
         Precio : 350000
+        
     },
     {
         Descripcion : "Disco SSD 480gb",
@@ -26,6 +28,7 @@ const productos = [
         Precio : 30000
     }
 ]
+
 
 //mostrarproductos(productos);
 //agregarproducto(productos);

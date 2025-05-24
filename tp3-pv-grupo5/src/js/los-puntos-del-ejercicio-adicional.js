@@ -60,3 +60,4 @@ export const productosConIVA = (productos) => {
     console.log("Productos con IVA:");
     console.log(productosIva);
 }
+
