@@ -1,5 +1,9 @@
-import { mostrarproductos, precioconiba } from "./los-puntos-del-ejercicio-adicional.js"
-import { iba } from "./los-puntos-del-ejercicio-adicional.js"
+import { filtrarProductosPorPrecio} from "./los-puntos-del-ejercicio-adicional.js"
+import { mostrarproductos } from "./los-puntos-del-ejercicio-adicional.js"
+import { agregarproducto } from "./los-puntos-del-ejercicio-adicional.js";
+import { eliminarProducto } from "./los-puntos-del-ejercicio-adicional.js";
+import {odenarararraydeproductos} from "./los-puntos-del-ejercicio-adicional.js";
+import { productosConIVA } from "./los-puntos-del-ejercicio-adicional.js";
 const productos = [
     {
         Descripcion : "Teclado",
@@ -24,5 +28,11 @@ const productos = [
         Precio : 30000
     }
 ]
+
+
 //mostrarproductos(productos);
-precioconIVA(productos);
+//agregarproducto(productos);
+//eliminarProducto(productos);
+//filtrarProductosPorPrecio(productos);
+//odenarararraydeproductos(productos);
+productosConIVA(productos);

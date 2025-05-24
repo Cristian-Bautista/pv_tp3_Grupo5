@@ -1,0 +1,90 @@
+body {
+  background-color: #ea5696;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.listaTarea {
+  background-color: #fff; 
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  width: 400px;
+  text-align: center;
+}
+
+.listaTarea h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  background-color: #f7f7f7;
+  font-size: 1rem;
+  color: #333;
+}
+
+button {
+  background-color: #ea83bd; 
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Fondo {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.Fondo li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Fondo li span {
+  flex: 1;
+  color: black;
+  font-size: 16px;
+}
+
+.Fondo li button {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border: 1px solid #888;
+  background-color: #e274ad;
+  cursor: pointer;
+}
+
+.Fondo li button:hover {
+  background-color: #ceb5b5;
+}
+
+.tarea {
+  background-color: #f2f2f2; 
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  color: #333;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.tarea:hover {
+  background-color: #e6e6e6; 
+  cursor: pointer;
+}
